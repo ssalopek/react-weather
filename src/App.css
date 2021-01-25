@@ -10,7 +10,7 @@ body {
 
 .app {
   background-image: url("./assets/cold-bg.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: bottom;
   transition: 0.4s ease;
 }
@@ -32,6 +32,8 @@ main {
 .search-box {
   width: 100%;
   margin: 0 0 75px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .search-box .search-bar {
@@ -103,5 +105,13 @@ main {
   color: #fff;
   font-size: 48px;
   font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box .humidity {
+  padding-top: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
